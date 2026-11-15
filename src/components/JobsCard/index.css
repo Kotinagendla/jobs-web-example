@@ -1,0 +1,150 @@
+.each-job {
+  list-style-type: none;
+  padding: 15px 20px;
+  border-radius: 14px;
+  background-color: #272727;
+  margin-bottom: 15px;
+}
+
+.each-job:hover {
+  border: 1px solid #b6c5ff;
+}
+
+@media screen and (min-width: 768px) {
+  .each-job {
+    height: 290px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.comp-logo-details-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job-comp-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.comp-details-container {
+  margin-top: 3px;
+}
+
+.comp-job-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.star-review-container {
+  display: flex;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 15px;
+}
+
+.rate-no {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.loc-job-lpa-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.loc-job-container {
+  display: flex;
+}
+
+.loc-container {
+  display: flex;
+}
+
+.job-type-container {
+  display: flex;
+}
+
+.loc-icon {
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.loc-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.job-brief-icon {
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.job-type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.job-salary-range {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.job-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description {
+    font-size: 18px;
+  }
+}
+
+.job-description-content {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description-content {
+    font-size: 17px;
+    margin-right: 30px;
+  }
+}
